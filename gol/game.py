@@ -76,8 +76,7 @@ class Printer:
 
 if __name__ == '__main__':
     tablero = World()
-    tablero.init_cells([Cell(1,0), Cell(3,4), Cell(4,3), Cell(2,3), Cell(1,2), Cell(2,2), Cell(3,2)])
-    """
+    #tablero.init_cells([Cell(1,0), Cell(3,4), Cell(4,3), Cell(2,3), Cell(1,2), Cell(2,2), Cell(3,2)])
     tablero.init_cells([Cell(24,0),
                         Cell(22,1), Cell(24,1),
                         Cell(12,2), Cell(13,2),Cell(20,2), Cell(21,2),Cell(34,2), Cell(35,2),
@@ -87,7 +86,6 @@ if __name__ == '__main__':
                         Cell(10,6), Cell(16,6),Cell(24,6),
                         Cell(11,7), Cell(15,7),
                         Cell(12,8), Cell(13,8)])
-    """
     Printer(tablero).print_world()
 
     for i in range(1,1000):
